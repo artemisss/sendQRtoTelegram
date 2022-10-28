@@ -1,7 +1,12 @@
 import json
+import requests
 
 def handler(event, context):
     body = json.loads(event['body'])
+    QR = body['message']['text']
+    url = "https://apipy1.herokuapp.com/QR/" + body['message']['text']
+    payload = ""
+    response = requests.request("POST", url, data=payload)
     return {
         'statusCode': 200,
         'headers': {
