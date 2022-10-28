@@ -3,4 +3,5 @@
 
 
 Разместите код в Yandex Cloud Functions (https://cloud.yandex.ru/services/functions)
-Обратите внимание, вам потребуется свой или готовый сервис генерации QR кодов.
+
+В приложен
